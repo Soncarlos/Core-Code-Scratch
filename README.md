@@ -27,3 +27,8 @@ ALGORITHM HOT AND COLD
 6.	Temp=(Temperatura - 32) x 0.5556
 7.	Imprimir Temp
 
+ALGORITHM VOLUME OF A PYRAMID 
+1.	Inicio
+2.	Obtener baselado y altura
+3.	Volumen=1/3* baselado*altura
+4.	Impimir Volumen
