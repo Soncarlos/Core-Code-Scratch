@@ -32,3 +32,10 @@ ALGORITHM VOLUME OF A PYRAMID
 2.	Obtener baselado y altura
 3.	Volumen=1/3* baselado*altura
 4.	Impimir Volumen
+
+- ALGORITHM VOLUME OF A CUBE
+1.	Inicio
+2.	Obtener lado
+3.	Volume=6*lado²
+4.	Imprimir Volumen
+
