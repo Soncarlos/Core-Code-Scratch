@@ -39,3 +39,11 @@ ALGORITHM VOLUME OF A PYRAMID
 3.	Volume=6*lado²
 4.	Imprimir Volumen
 
+- ALGORITHM VOLUME OF A SPHERE
+1.	Inicio
+2.	Obtener radio
+3.	Volume= (4/3)*π *r3
+4.	Imprimir Volumen
+5.	Fin
+
+
