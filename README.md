@@ -16,3 +16,14 @@ ALGORITHM TO MAKE PIZZA DOUGH
 12.	Colocar la pizza en el horno
 13.	Hornear
 
+
+ALGORITHM HOT AND COLD
+
+1.	Inicio
+2.	Obtener Tempertura
+3.	Si Temperatura es Celsius
+4.	Temp= (Temperatura x 1.8) + 32
+5.	Si Temperatura es Fahrenheit
+6.	Temp=(Temperatura - 32) x 0.5556
+7.	Imprimir Temp
+
