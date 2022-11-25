@@ -1,1 +1,10 @@
+- Algorithm DATE OF BIRTH
+
+Start
+Variable:  year, Age= entero.
+Write “Input the year of Birth”
+Read year	
+Age=CurrentYear – Year.
+Write “ The age is”, Age
+
 
