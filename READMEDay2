@@ -6,5 +6,5 @@ Write “Input the year of Birth”
 Read year	
 Age=CurrentYear – Year.
 Write “ The age is”, Age
-
-
+---------------------------
+A/ The chests that have Treasures are the Left and  the Middle
