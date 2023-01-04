@@ -4,4 +4,4 @@ let z = y;
 y=z;
 x=z;
 console.log(x);
-/* Hardy is the outpu*/
+/* Hardy is the output*/
