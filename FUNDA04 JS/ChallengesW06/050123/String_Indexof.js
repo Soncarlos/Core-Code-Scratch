@@ -1,6 +1,8 @@
 function indexOfIgnoreCase(str1, str2){
     let ns=str1.indexOf(str2.toLowerCase());
-    return ns;
+    let ns2= str1.lastIndexOf(str2);
+    return ns +'/' +ns2 ;
     }
-    console.log(indexOfIgnoreCase('bit', 'it'));
-    console.log(indexOfIgnoreCase('bit', 'IT'));
+
+    console.log(indexOfIgnoreCase('itrobit', 'it'));
+    console.log(indexOfIgnoreCase('ITbit', 'IT'));
