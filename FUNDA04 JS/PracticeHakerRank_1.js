@@ -21,3 +21,18 @@ function PhoneBook(obj){
 }
 let person={name:'carlos', phone:'57296589'}
 console.log(PhoneBook(person))
+
+function filterWords(words, letters) {
+    let a = new Array();
+    
+    for(let i in words){
+        for(let x=0; x < letters.length;x++){
+           if(words[i].includes(letters[x])){
+               a.push(words[i]);
+           }   
+       }    
+    } 
+        return a;
+    }
+    const words=['he', 'saw', 'and', 'she', 'saw'];
+    console.log(filterWords(words,'ae'));
