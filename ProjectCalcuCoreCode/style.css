@@ -26,7 +26,7 @@ html, body{
 }
 .number-pad{
 /*background-color: blueviolet;*/
-color: white;
+color: black;
 margin-top: 5%;
 padding-left: 4%;
 padding-right: 4%;
@@ -38,18 +38,15 @@ grid-template-columns: repeat(4,1fr);
 grid-template-rows: repeat(5, 1fr);
 }
 .button{
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    justify-self: center;
-    background-color: #e0e1dd;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    font-size: 2.8rem;
-    height: 6.8rem;
-    transition: filter 0.3s;
-    width: 6.8rem;
+align-items: center; 
+justify-content: center;
+align-self: center; 
+justify-self: center;
+background-color: #e0e1dd;
+border-radius: 50%; 
+cursor: pointer;
+display: flex; font-size: 2.8rem;
+height: 6.8rem; transition: filter 0.3s; width: 6.8rem;
 }
 .button:hover{
     background-color:#edf2f4;    
