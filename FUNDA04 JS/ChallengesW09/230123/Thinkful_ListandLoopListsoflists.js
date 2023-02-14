@@ -1,8 +1,4 @@
 const arr=[[2,5],[3,4],[8,7]]
-//[2, 5] --> 2 - 5 --> -3
-//[3, 4] --> 3 - 4 --> -1
-//[8, 7] --> 8 - 7 --> 1
-//-3 * -1 * 1 --> 3
 function processData(data){
     let result=[];
     for(let i=0; i<data.length; i++){

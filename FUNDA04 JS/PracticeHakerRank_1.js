@@ -15,12 +15,12 @@
 // const ar=[1,4,3,2];
 //console.log(reverseArray(ar));
 
-function PhoneBook(obj){
-    if(obj.phone!=null)
-    return  obj.name+' = '+obj.phone;  
-}
-let person={name:'carlos', phone:'57296589'}
-console.log(PhoneBook(person))
+// function PhoneBook(obj){
+//     if(obj.phone!=null)
+//     return  obj.name+' = '+obj.phone;  
+// }
+// let person={name:'carlos', phone:'57296589'}
+// console.log(PhoneBook(person))
 
 function filterWords(words, letters) {
     let a = new Array();

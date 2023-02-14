@@ -11,7 +11,7 @@ function spinWords(string){
 return result;
 }
 var valLength=function(word){
-   //return  word.length>4? word.split('').reverse().join(''):word
+//return  word.length>4? word.split('').reverse().join(''):word
 let arr=[];
 if(word.length>4){
   arr= word.split('').reverse().join('');
