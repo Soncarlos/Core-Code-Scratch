@@ -1,0 +1,1 @@
+console.log('Esto es una prueba de compilacion desde la terminal con NODE.JS')
