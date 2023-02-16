@@ -23,16 +23,16 @@ Aunque PHP y Golang comparten algunas características positivas con JavaScript,
 Nodejs, es un entorno de ejecucion JavaScript que se implementa fuera del navegador Web.
 
 7-> Are Node.JS and a browser the same?
-
 NO.
 
 8-> What is NVM and Why is it useful for Node.JS developers?
+
 NVM, es el gestor de versiones de NodeJS, y es utilizado para intercambiar versiones de Node js, tal sea el caso necesario. Lo que significa que se puede tener mas de una versión de NodeJs instalada en el mismo entorno de desarrollo o producción, además soluciona algunos problemas típicos que suelen ocurrir cuando se trabaja con npm.
 
 9-> What is NPM?
 
 NODE PACKAGES MANAGER: Gestor de paquetes de Nodejs
-
+s
 10-> Why use it?
 
 Permite instalar librerias, frameworks y otras herramientas de desarrollo.
