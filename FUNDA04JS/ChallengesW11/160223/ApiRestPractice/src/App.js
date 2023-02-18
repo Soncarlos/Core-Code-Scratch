@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express();
 const port = 3852;
-const del = 10000;
+const del = 5000;
+
 
 app.get('/', (req, res) => {
 
