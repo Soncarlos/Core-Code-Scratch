@@ -8,12 +8,81 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(
-    0deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(48, 16, 255, 1) 0%,
+      rgba(100, 115, 255, 1) 100%);
 }
+
+.clearfix {
+  clear: both;
+}
+
+.container-form {
+  margin-top: 5px;
+}
+
+.form-input {
+  background: #161a2b;
+
+}
+
+.div-title {
+  width: 100%;
+  float: left;
+  margin-top: 3px;
+  padding-left: 45px;
+}
+
+.div-description {
+  float: left;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+.operation {
+  float: right;
+  border-radius: 0.5rem;
+  font-size: 10px;
+  width: auto;
+}
+
+input {
+  font-size: larger;
+  border-radius: 0.5rem;
+  background: darkorange
+}
+
+section card {
+  float: left;
+  background-color: #5d0cff;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+.list-container h3,
+p {
+  float: left;
+  color: lightskyblue;
+}
+
+.button-task {
+  float: right;
+  background-color: #5d0cff;
+  color: yellow;
+  border-style: solid 1px yellow;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 15px auto;
+  margin-right: 0.7rem;
+  padding: 0px 5px 0px 5px;
+}
+
+
+
 .todo-app {
   display: flex;
   flex-direction: column;
@@ -76,11 +145,9 @@ h1 {
   outline: none;
   margin: 0 2px;
   padding: 16px 22px;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%);
   color: #fff;
   text-transform: capitalize;
 }
@@ -90,11 +157,9 @@ h1 {
 }
 
 .todo-button.edit {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%);
 }
 
 .todo-container {
@@ -109,11 +174,9 @@ h1 {
   align-items: center;
   margin: 4px auto;
   color: #fff;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 118, 20, 1) 0%,
-    rgba(255, 84, 17, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 118, 20, 1) 0%,
+      rgba(255, 84, 17, 1) 100%);
 
   padding: 16px;
   border-radius: 5px;
@@ -121,27 +184,21 @@ h1 {
 }
 
 .todo-row:nth-child(4n + 1) {
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%);
 }
 
 .todo-row:nth-child(4n + 2) {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%);
 }
 
 .todo-row:nth-child(4n + 3) {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%);
 }
 
 .icons {
