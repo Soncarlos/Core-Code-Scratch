@@ -17,72 +17,75 @@ body {
   clear: both;
 }
 
-.container-form {
+.container-form {  
+  background: rgba(23, 7, 117, 0.432);
   margin-top: 5px;
 }
 
-.form-input {
-  background: #161a2b;
-
+.title h1 {
+  text-align: center;
 }
 
 .div-title {
   width: 100%;
-  float: left;
-  margin-top: 3px;
-  padding-left: 45px;
 }
 
 .div-description {
-  float: left;
-  margin-top: 3px;
-  margin-bottom: 3px;
   width: 100%;
 }
 
 .operation {
   float: right;
-  border-radius: 0.5rem;
-  font-size: 10px;
-  width: auto;
+  width: 15%;
+  background: rgba(23, 7, 117, 0.432);
+  border: solid 1px;
+  border-radius: 0.4em;
+  border-color: #149fff;
+  color: yellow;
+  font-size: 0.9em;
+  margin-top: 8px;
+  margin-right: 3px;
 }
 
 input {
-  font-size: larger;
+  float: left;
+  background: #221e5a;
+  color: rgb(233, 236, 235);
+  font-size: 17PX;
   border-radius: 0.5rem;
-  background: darkorange
+  border-color: #09866b;
+  margin: 5px 0px 5px 4px;
+  padding-left: 5px;
 }
 
-section card {
+section {
   float: left;
-  background-color: #5d0cff;
+  background-color: #3a0f91;
   width: 100%;
-  margin: 1rem 0;
-  border-radius: 0.5rem;
-  padding: 0.25rem 0;
+  margin: 0.2rem;
+  border-radius: 0.3rem;
+  padding: 0.20rem;
 }
 
 .list-container h3,
 p {
   float: left;
-  color: lightskyblue;
+  color: rgb(213, 215, 216);
+  padding-left: 15px;
 }
 
 .button-task {
   float: right;
-  background-color: #5d0cff;
-  color: yellow;
-  border-style: solid 1px yellow;
+  background-color: #3a0f91;
   border-radius: 0.5rem;
-  font-size: 0.9rem;
+  border-color: #c49106;
+  font-size: 0.8rem;
+  color: greenyellow;
   text-align: center;
-  width: 15px auto;
-  margin-right: 0.7rem;
-  padding: 0px 5px 0px 5px;
+  width: 25px;
+  margin-right: 0.2rem;
+  
 }
-
-
-
 .todo-app {
   display: flex;
   flex-direction: column;

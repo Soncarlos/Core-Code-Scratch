@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import List from "./components/List";
+import Lista from "./components/List"
 import CreateTodo from "./components/CreateTodo";
 
 function App() {
@@ -16,9 +16,12 @@ function App() {
   }, [data])
 
   return (
-    <div className="todo-app">
-      <CreateTodo />
-      <List data={data} />
+    <div className="title">
+      <h1>What's the Plan for Today?</h1>
+      <div className="todo-app">
+        <CreateTodo />
+        <Lista data={data} />
+      </div>
     </div>
   );
 }
