@@ -1,6 +1,6 @@
 # Date 29/11/2022
 
-## PSEUDOCODE USING PSEINT
+#### PSEUDOCODE USING PSEINT
 
 
 ### Print my Name
