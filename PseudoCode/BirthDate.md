@@ -1,6 +1,7 @@
-    # Date 23/11/2022
+#  Date: 23/11/2022
     
-    ## Algorithm of BirthDate
+    
+ ### Algorithm of BirthDate
 
     Start
     Variable:  year, Age= entero.
@@ -8,5 +9,5 @@
     Read year	
     Age=CurrentYear – Year.
     Write “ The age is”, Age
-    ---------------------------
+    
     Answer / The chests that have Treasures are the Left and  the Middle
