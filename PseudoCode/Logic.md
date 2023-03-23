@@ -1,4 +1,7 @@
-# WEEK NUMBER 2
+# Date 28/11/2022
+
+### Logic
+<br>
 The teacher asks his 5 students if they studied mathematics yesterday.
 Alice: "Nobody studied math yesterday".
 Bob: "1 person studied math yesterday".
@@ -13,26 +16,4 @@ Identify which student is telling the truth
 
 Charlie is telling the truth
 
-# PSEUDOCODE WHICH FIRST CERAL OR MILK
-Star
-Variables: bowl,water,Milk,Cereal;
-if there is no water then
-to buy water;
-if there is no Cereal then
-to buy cereal;
-if there is no milk then
-to buy milk
-if there are water, cereal and milk then
-Put the water into the bowl;
-Throw cereal into the bowl;
-Throw milk into de bowl;
-Mixing;
-Serve;
-Eat;
-else
-to buy ingredients
-return
-End
 
-FlowChart Cereal or Milk
-(https://github.com/Soncarlos/Core-Code-Scratch/blob/main/Cereal%20or%20Milk.png)

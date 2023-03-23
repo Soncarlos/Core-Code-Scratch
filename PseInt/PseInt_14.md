@@ -1,5 +1,10 @@
-        # CASHIER
-        Funcion BalWDraw <- WithDraw(Balance)
+# Date 21/12/2022
+
+## PseudoCode using PSEINT
+
+### CASHIER
+
+ Funcion BalWDraw <- WithDraw(Balance)
                 Definir draw Como Entero;
                 draw=0;
                 Imprimir 'INPUT THE AMOUNT TO WITHDRAW';
@@ -9,7 +14,7 @@
                 Imprimir 'Press any key to continue'
                 Leer  key;
                 Limpiar Pantalla
-        FinFuncion
+FinFuncion
         Funcion BalDeposit<- Deposit(Balance) 
                 Definir depos Como Entero;
                 depos=0;
@@ -20,7 +25,7 @@
                 Imprimir 'Press any key to continue'
                 Leer  key;
                 Limpiar Pantalla
-        FinFuncion
+FinFuncion
         Algoritmo Cashier
                 Definir  Bal Como Entero;
                 Bal =1000;	
@@ -36,15 +41,15 @@
                                 'c': Imprimir 'Thanks for use our Cashier';			
                         FinSegun
                 Mientras Que op <> 'c'	
-        FinAlgoritmo
+FinAlgoritmo
 
-# AVERAGE WEATHER
+### AVERAGE WEATHER
 
-                Funcion Convertcelsius<- Celsius(Far)
+         Funcion Convertcelsius<- Celsius(Far)
 	Definir Convertcelsius Como real;
 	Convertcelsius = trunc(Far - 32) * 0.5556;	
         FinFuncion
-        Algoritmo AverageWeather
+Algoritmo AverageWeather
                 Definir AveCelsius Como real;
                 Definir CounterC, degress Como Entero;
                 AveCelsius=0;	
@@ -67,4 +72,4 @@
                         FinSegun		
                 Mientras Que op <> 'x'		
                 Imprimir 'AVERAGE OF CELSIUS : ',trunc(AveCelsius/CounterC);	
-        FinAlgoritmo
+FinAlgoritmo

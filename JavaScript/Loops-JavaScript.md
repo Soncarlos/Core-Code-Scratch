@@ -1,4 +1,7 @@
-#  IF STATEMENT IN JAVASCRIPT
+# Date 22/12/2022
+
+
+##  IF STATEMENT IN JAVASCRIPT
 
     let x ='Hola'
     if(x==='Hola'){
@@ -8,7 +11,7 @@
     }
     
     
- #  FOR STATEMENT IN JAVASCRIPT
+ ##  FOR STATEMENT IN JAVASCRIPT
     
      for(let i=1; i<10; i++)
     {
@@ -16,9 +19,8 @@
     }
     
     
- #  WHILE STATEMENT IN JAVASCRIPT
- 
- 
+ ##  WHILE STATEMENT IN JAVASCRIPT
+  
       let max=1;
       while(max<20)
       {
