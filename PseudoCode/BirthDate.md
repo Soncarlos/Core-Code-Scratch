@@ -1,6 +1,6 @@
-    # Date 23/11/2022
+    Date 23/11/2022
     
-    ###  Algorithm of BirthDate
+    Algorithm of BirthDate
 
     Start
     Variable:  year, Age= entero.
