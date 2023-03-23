@@ -4,7 +4,7 @@
 
 ### CASHIER
 
- Funcion BalWDraw <- WithDraw(Balance)
+ 	        Funcion BalWDraw <- WithDraw(Balance)
                 Definir draw Como Entero;
                 draw=0;
                 Imprimir 'INPUT THE AMOUNT TO WITHDRAW';
@@ -14,8 +14,9 @@
                 Imprimir 'Press any key to continue'
                 Leer  key;
                 Limpiar Pantalla
-FinFuncion
-        Funcion BalDeposit<- Deposit(Balance) 
+		FinFuncion
+		
+       	 Funcion BalDeposit<- Deposit(Balance) 
                 Definir depos Como Entero;
                 depos=0;
                 Imprimir 'INPUT THE AMOUNT TO DEPOSIT';
@@ -25,8 +26,9 @@ FinFuncion
                 Imprimir 'Press any key to continue'
                 Leer  key;
                 Limpiar Pantalla
-FinFuncion
-        Algoritmo Cashier
+		FinFuncion
+		
+      		Algoritmo Cashier
                 Definir  Bal Como Entero;
                 Bal =1000;	
                 Hacer
@@ -41,15 +43,15 @@ FinFuncion
                                 'c': Imprimir 'Thanks for use our Cashier';			
                         FinSegun
                 Mientras Que op <> 'c'	
-FinAlgoritmo
+	FinAlgoritmo
 
 ### AVERAGE WEATHER
 
-         Funcion Convertcelsius<- Celsius(Far)
-	Definir Convertcelsius Como real;
-	Convertcelsius = trunc(Far - 32) * 0.5556;	
-        FinFuncion
-Algoritmo AverageWeather
+		Funcion Convertcelsius<- Celsius(Far)
+		Definir Convertcelsius Como real;
+		Convertcelsius = trunc(Far - 32) * 0.5556;	
+		FinFuncion
+		Algoritmo AverageWeather
                 Definir AveCelsius Como real;
                 Definir CounterC, degress Como Entero;
                 AveCelsius=0;	
@@ -72,4 +74,4 @@ Algoritmo AverageWeather
                         FinSegun		
                 Mientras Que op <> 'x'		
                 Imprimir 'AVERAGE OF CELSIUS : ',trunc(AveCelsius/CounterC);	
-FinAlgoritmo
+	FinAlgoritmo
