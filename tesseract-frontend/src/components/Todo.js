@@ -32,7 +32,6 @@ const Todo = ({
   }
 
   return todos.map((todo, index) => (
-    // <div>
     <div
       className={todo.isComplete ? "todo-row complete" : "todo-row"}
       key={index}
@@ -76,7 +75,6 @@ const Todo = ({
         </div>
       )}
     </div>
-    // </div>
   ));
 };
 

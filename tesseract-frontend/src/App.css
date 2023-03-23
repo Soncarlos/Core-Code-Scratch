@@ -17,7 +17,7 @@ body {
   clear: both;
 }
 
-.container-form {  
+.container-form {
   background: rgba(23, 7, 117, 0.432);
   margin-top: 5px;
 }
@@ -36,41 +36,62 @@ body {
 
 .operation {
   float: right;
-  width: 15%;
+  width: 20%;
+  height: 30%;
+  text-align: center;
   background: rgba(23, 7, 117, 0.432);
   border: solid 1px;
   border-radius: 0.4em;
   border-color: #149fff;
   color: yellow;
   font-size: 0.9em;
-  margin-top: 8px;
+  margin-top: 4px;
   margin-right: 3px;
+  padding: 5px;
 }
 
 input {
   float: left;
-  background: #221e5a;
-  color: rgb(233, 236, 235);
+  background: #092e14;
+  color: rgb(220, 233, 38);
   font-size: 17PX;
   border-radius: 0.5rem;
-  border-color: #09866b;
+  border-color: #c49106;
   margin: 5px 0px 5px 4px;
   padding-left: 5px;
 }
 
-section {
+.list-container {
   float: left;
-  background-color: #3a0f91;
+  background-color: #22045e;
   width: 100%;
   margin: 0.2rem;
   border-radius: 0.3rem;
   padding: 0.20rem;
 }
 
-.list-container h3,
-p {
+.list-container h2 {
   float: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
   color: rgb(213, 215, 216);
+  padding-left: 15px;
+}
+
+.list-container p {
+  float: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: rgb(148, 192, 28);
+  padding-left: 15px;
+}
+
+.list-complete h2, p  {
+  float: left;
+  font-size: 15px;
+  color: rgb(148, 192, 28);
+  text-decoration: line-through;
+  opacity: 50%;
   padding-left: 15px;
 }
 
@@ -84,8 +105,9 @@ p {
   text-align: center;
   width: 25px;
   margin-right: 0.2rem;
-  
+
 }
+
 .todo-app {
   display: flex;
   flex-direction: column;

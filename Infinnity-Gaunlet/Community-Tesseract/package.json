@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Fundamentals Final Project",
   "main": "src/index.js",
-  "type": "module",
+  "type": "module",   
   "scripts": {
     "start": "nodemon src/index.js"
   },
