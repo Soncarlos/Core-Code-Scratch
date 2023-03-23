@@ -3,7 +3,7 @@
   ### Information about Concepts, Exercises and Final Project of CoreCode-Scratch.
 
 
-  Pseudo-Codes
+Pseudo-Codes
 
 - [BirthDate](PseudoCode/BirthDate.md)
 - [Logic](PseudoCode/Logic.md)
@@ -11,8 +11,10 @@
 - [Flowchart Cereal-Milk](PseudoCode/Flowcharts.md)
 - [and more](PseudoCode/Exercises.md)
 
-
-  Pseudo-Code using PseInt Program
+  <br>
+  
+  
+Pseudo-Code using PseInt Program
 
 - [PrintmyName](PseInt/PseInt_01.md)
 - [Even & Odd Numbers](PseInt/PseInt_02.md)
