@@ -4,19 +4,19 @@
 
 ### CASHIER
 
- 	        Funcion BalWDraw <- WithDraw(Balance)
-                Definir draw Como Entero;
-                draw=0;
-                Imprimir 'INPUT THE AMOUNT TO WITHDRAW';
-                Leer draw
-                BalWDraw=Balance-draw;
-                Imprimir 'YOUR NEW BALANCE IS :', BalWDraw;
-                Imprimir 'Press any key to continue'
-                Leer  key;
-                Limpiar Pantalla
-		FinFuncion
+ 	   Funcion BalWDraw <- WithDraw(Balance)
+           Definir draw Como Entero;
+           draw=0;
+           Imprimir 'INPUT THE AMOUNT TO WITHDRAW';
+           Leer draw
+           alWDraw=Balance-draw;
+           Imprimir 'YOUR NEW BALANCE IS :', BalWDraw;
+           Imprimir 'Press any key to continue'
+           Leer  key;
+           Limpiar Pantalla
+	   FinFuncion
 		
-       	 Funcion BalDeposit<- Deposit(Balance) 
+       		 Funcion BalDeposit<- Deposit(Balance) 
                 Definir depos Como Entero;
                 depos=0;
                 Imprimir 'INPUT THE AMOUNT TO DEPOSIT';
