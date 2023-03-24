@@ -3,7 +3,6 @@ function validParentheses(parens) {
   while (pat.test(parens))
     parens = parens.replace(pat, "");
   return !parens;
-
 }
 const str1 = "()" // true
 const str2 = ")(()))"//  false
