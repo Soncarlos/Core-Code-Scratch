@@ -26,7 +26,7 @@
 
 - [Loops in JavaScript](JavaScript-Code/Loops-JavaScript.md)
  #
- ## JAVASCRIPT FUNDAMETALS 
+ ## JAVASCRIPT FUNDAMENTALS 
  #
      
  ### Challenges of the Week-06
