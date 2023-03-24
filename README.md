@@ -24,6 +24,13 @@ Pseudo-Code using PseInt Program
 - [Cashier](PseInt/PseInt_14.md)
 - [and more](PseInt)
 
+<br>
+
+
+JavaScript Practice
+
+- [Loops in JavaScript](JavaScript-Code/Loops-JavaScript.md)
+
 
 
 
