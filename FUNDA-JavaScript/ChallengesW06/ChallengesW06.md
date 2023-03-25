@@ -1,8 +1,7 @@
- # Challenges of the Week-06
-  
+# Challenges of the Week-06
 
-- [Variables](FUNDA-JavaScript/ChallengesW06/Variables/)
+- [Variables](Variables/)
 
-- [Functions](FUNDA-JavaScript/ChallengesW06/Functions/)
+- [Functions](Functions/)
 
-- [String - Functions](FUNDA-JavaScript/ChallengesW06/String-Functions/)
+- [String - Functions](String-Functions/)
